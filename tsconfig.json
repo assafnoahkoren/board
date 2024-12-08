@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "declaration": true,
+        "declarationMap": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "@shared/*": [
+                "apps/shared/src/*"
+            ],
+            "@server/*": [
+                "apps/server/src/*"
+            ],
+            "@webapp/*": [
+                "apps/webapp/src/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
