@@ -5,10 +5,8 @@ import * as React from "react";
 function App() {
     return (
         <div dir="rtl" className="w-full h-full flex-col relative bg-dark p-10 box-border">
-            <div className="absolute top-0 left-0 w-full h-full z-0 pointer-events-none">
-                <ParticlesBackground/>
-            </div>
-            <div className="text-white w-full h-full grid grid-cols-2 grid-rows-2">
+            <ParticlesBackground/>
+            <div className="text-white w-full flex-1 grid grid-cols-2 grid-rows-2">
                 <div className="px-2">
                     <div
                         className="p-4 flex flex-col gap-4 border border-[#ffffff33] border-e-solid border-e-[0.2rem] h-full box-border">
@@ -51,10 +49,10 @@ type ExamRowProps = {
 }
 const OfficeRow = (props: ExamRowProps) => {
     return <div className="flex w-full">
-        <div className="text-5xl fw-900 bg-amber p-2 flex-1">
+        <div className="text-5xl fw-900 bg-brand p-2 flex-1">
             {props.text}
         </div>
-        {props.postfix && <div className="text-5xl fw-900 bg-white p-2 text-amber flex justify-center items-center">
+        {props.postfix && <div className="text-5xl fw-900 bg-white p-2 text-brand flex justify-center items-center">
             {props.postfix}
         </div>}
     </div>
