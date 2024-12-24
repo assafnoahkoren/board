@@ -12,7 +12,7 @@ function App() {
             <div
               className="p-4 flex flex-col gap-4 h-full box-border">
               <FloorRow floor="קומה 1" />
-              <OfficeRow text="פליי דנט" postfix={100} />
+              <OfficeRow text="טופ מדיקל קליניק" postfix={100} />
               <OfficeRow text="מבחני תאוריה - אנקורי" postfix={103} />
             </div>
           </div>
@@ -20,9 +20,9 @@ function App() {
             <div className="p-4 flex flex-col gap-4">
               <FloorRow floor="קומה 2" />
               <OfficeRow text="וי.אי.פי. לוקס טרוול" postfix={'200-203'} />
-              <OfficeRow text="דדוש בן ארויה חברת רואי חשבון" postfix={204} />
+              <OfficeRow text="דדוש & בן ארויה חברת רואי חשבון" postfix={204} />
               <OfficeRow text="אפרים מנגד" postfix={205} />
-              <OfficeRow text="ICL" postfix={206} />
+              <OfficeRow text="ICL - Israel Cargo Logistics" postfix={206} />
             </div>
           </div>
         </div>
