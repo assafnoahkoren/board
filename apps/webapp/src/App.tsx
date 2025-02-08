@@ -34,6 +34,8 @@ function App() {
               <FloorRow floor="קומה 3" />
               <OfficeRow text="גילרון" postfix={300} />
               <OfficeRow text="גלובל שארק" postfix={303} />
+              <OfficeRow text="נירן אוזן - הנדסת מבנים" postfix={304} />
+              <OfficeRow text="אושן לינק - שילוח בינלאומי" postfix={305} />
 
             </div>
           </div>
