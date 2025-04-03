@@ -32,7 +32,7 @@ function App() {
             <div
               className="p-4 flex flex-col gap-4 border h-3/4 box-border">
               <FloorRow floor="קומה 3" />
-              <OfficeRow text="Gilron - Customs & Logistics" postfix={300} />
+              <OfficeRow text="GILRON - Customs & Logistics" postfix={300} />
               <OfficeRow text="אדי שרותי מכס ונמל" postfix={300} />
               <OfficeRow text="גלובל שארק" postfix={303} />
               <OfficeRow text="נירן אוזן - הנדסת מבנים" postfix={304} />
