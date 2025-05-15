@@ -13,7 +13,7 @@ function App() {
               className="p-4 flex flex-col gap-4 h-full box-border">
               <FloorRow floor="קומה 1" />
               <OfficeRow text="טופ מדיקל קליניק" postfix={100} />
-              <OfficeRow text="מבחני תאוריה - אנקורי" postfix={103} />
+              <OfficeRow text="מבחני תאוריה - אנקורי" postfix={102} />
             </div>
           </div>
           <div className="px-2">
@@ -34,9 +34,9 @@ function App() {
               <FloorRow floor="קומה 3" />
               <OfficeRow text="GILRON - Customs & Logistics" postfix={300} />
               <OfficeRow text="אדי שרותי מכס ונמל" postfix={300} />
-              <OfficeRow text="גלובל שארק" postfix={303} />
-              <OfficeRow text="נירן אוזן - הנדסת מבנים" postfix={304} />
-              <OfficeRow text="אושן לינק - שילוח בינלאומי" postfix={305} />
+              <OfficeRow text="גלובל שארק" postfix={302} />
+              <OfficeRow text="נירן אוזן - הנדסת מבנים" postfix={303} />
+              <OfficeRow text="אושן לינק - שילוח בינלאומי" postfix={304} />
 
             </div>
           </div>
