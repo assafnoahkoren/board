@@ -19,7 +19,8 @@ function App() {
           <div className="px-2">
             <div className="p-4 flex flex-col gap-4">
               <FloorRow floor="קומה 2" />
-              <OfficeRow text="וי.אי.פי. לוקס טרוול" postfix={'200-203'} />
+              <OfficeRow text="וי.אי.פי. לוקס טרוול" postfix={'200-202'} />
+              <OfficeRow text="י. פק-ליס שירותי ליסנג ורכב" postfix={201} />
               <OfficeRow text="דדוש & בן ארויה חברת רואי חשבון" postfix={204} />
               <OfficeRow text="אפרים מנגד רואה חשבון" postfix={205} />
               <OfficeRow text="ICL - Israel Cargo Logistics" postfix={206} />
