@@ -44,6 +44,7 @@ function App() {
           <div className="px-2">
             <div className="p-4 flex flex-col gap-4">
               <FloorRow floor="קומה 4" />
+              <OfficeRow text={`ארפל אלומאייר בע"מ`} postfix={400} />
               <OfficeRow text="Nest Roof" postfix={'מרפסת'} />
             </div>
           </div>
