@@ -5,6 +5,19 @@ import * as React from "react";
 function App() {
   return (
     <div dir="rtl" className="w-full h-full flex-col relative bg-dark p-10 box-border">
+      <div className="absolute top-10 left-10 text-white text-6xl font-bold flex flex-col items-center gap-2">
+        <span className="text-4xl fw-400">
+          הנהלת הבניין
+        </span>
+        <div className="flex flex-row gap-4 items-center">
+          <span className="text-5xl relative -top-1">
+            יניב -
+          </span>
+          <span dir="ltr" className="text-5xl fw-600">
+            (052) 335 7745
+          </span>
+        </div>
+      </div>
       <Header />
       <div className="flex flex-row text-white w-full flex-1">
         <div className="flex flex-1 flex-col">
@@ -45,7 +58,7 @@ function App() {
           <div className="px-2">
             <div className="p-4 flex flex-col gap-4">
               <FloorRow floor="קומה 4" />
-              <OfficeRow text={`ארפל אלומאייר בע"מ`} postfix={400} />
+              <OfficeRow text={`ארפל אלומאיר בע"מ`} postfix={400} />
               <OfficeRow text="Nest Roof" postfix={'מרפסת'} />
             </div>
           </div>
