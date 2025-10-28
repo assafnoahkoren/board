@@ -27,6 +27,8 @@ function App() {
               <FloorRow floor="קומה 1" />
               <OfficeRow text="טופ מדיקל קליניק" postfix={100} />
               <OfficeRow text="מבחני תאוריה - אנקורי" postfix={102} />
+              <OfficeRow text={`אורי ס.נ בע"מ`} postfix={103} />
+            <OfficeRow text={`דלתא מוב יבוא ושילוח בע"מ`} postfix={104} />
             </div>
           </div>
           <div className="px-2">
